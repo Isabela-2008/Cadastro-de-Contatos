@@ -1,0 +1,55 @@
+## Enunciado do Projeto: Gerenciador de Contatos Simples
+
+### Objetivo
+
+Desenvolver um gerenciador de contatos em Python que permita adicionar, exibir e remover contatos de uma lista. Este projeto visa praticar manipulação de listas, funções e loops em Python.
+
+### Descrição
+
+1. **Adicionar Contato**:
+   - O programa deve permitir a adição de contatos à lista `contatos`, armazenando o nome, telefone e email de cada contato.
+
+2. **Exibir Contatos**:
+   - Deve ser possível exibir todos os contatos armazenados, mostrando as informações de cada contato no formato `Nome: [nome], Telefone: [telefone], Email: [email]`.
+
+3. **Remover Contato**:
+   - Deve ser possível remover um contato pelo nome. O programa deve buscar o nome na lista de contatos e removê-lo, se encontrado.
+
+4. **Execução do Programa**:
+   - O script realiza uma execução simples onde adiciona dois contatos, exibe todos os contatos, remove um contato pelo nome e exibe a lista atualizada.
+
+### Entregáveis
+
+- Script Python (`gerenciador_contatos.py`) contendo o código do gerenciador de contatos.
+
+### Critérios de Avaliação
+
+- Funcionamento correto das funções de adicionar, exibir e remover contatos.
+- Clareza e organização do código.
+- Capacidade de o script manipular uma lista de contatos e refletir corretamente as mudanças realizadas.
+
+### Recursos Adicionais
+
+- Bibliotecas padrão do Python (não é necessário instalar dependências adicionais).
+
+# Gerenciador de Contatos Simples
+
+Este projeto é um simples gerenciador de contatos em Python, que permite adicionar, exibir e remover contatos armazenados em uma lista. É uma ferramenta básica para manipulação de dados de contatos, como nome, telefone e email.
+
+## Funcionalidades
+
+- **Adicionar Contato**: Permite adicionar novos contatos com nome, telefone e email.
+- **Exibir Contatos**: Exibe todos os contatos salvos.
+- **Remover Contato**: Remove um contato pelo nome.
+
+## Pré-requisitos
+
+- Python 3.x instalado.
+
+## Como Executar
+
+1. Clone este repositório ou baixe o arquivo `gerenciador_contatos.py`.
+2. Navegue até o diretório onde o arquivo está localizado.
+3. Execute o script com o comando:
+   ```bash
+   python gerenciador_contatos.py
